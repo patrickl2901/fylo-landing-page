@@ -1,6 +1,9 @@
 # Fylo Landing Page - frontendmentor.io
  
-Fylo Landing Page that displays well on desktop and mobile.
+<h2>Users Should be Able to:</h2>
+
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for interactive elements on the page
 
 <h2>Built With:</h2>
 
