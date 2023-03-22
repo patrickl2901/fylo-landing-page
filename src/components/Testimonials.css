@@ -1,0 +1,34 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.quotes-container {
+    width: 80vw;
+    z-index: 0;
+}
+
+.quotes-img {
+    width: 2rem;
+}
+
+@media screen and (min-width: 961px) {
+
+    .testimonials-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quotes-container {
+        position: relative;
+        margin-bottom: 2.5rem;
+        z-index: -1;
+    }
+
+    .quotes-img {
+        position: absolute;
+        width: 4rem;
+    }
+}

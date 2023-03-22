@@ -1,0 +1,48 @@
+.testimonial {
+    background-color: hsl(219, 30%, 18%);
+    width: 65vw;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px hsl(217, 28%, 15%);
+    margin-bottom: 2rem;
+    max-width: 300px;
+}
+
+.testimonial-text {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 2.5rem;
+    border-radius: 100%;
+}
+
+.profile-text {
+    margin-left: 1rem;
+    line-height: 0.5rem;
+}
+
+.profile-name {
+    color: white;
+    font-weight: 700;
+}
+
+.profile-occupation {
+    color: white;
+    font-size: 0.75rem;
+}
+
+@media screen and (min-width: 961px) {
+
+    .testimonial {
+        margin-left: 1rem;
+        box-shadow: 10px 10px 10px hsl(217, 28%, 15%);
+    }
+}

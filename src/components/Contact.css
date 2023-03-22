@@ -1,0 +1,62 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.logo-footer {
+    width: 12rem;
+    margin-bottom: 3rem;
+}
+
+.contact-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.contact-item {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.contact-text {
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 961px) {
+
+    .logo-footer {
+        display: none;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 1rem 1rem;
+        row-gap: 1.5rem;
+        column-gap: 5rem;
+        width: fit-content;
+    }
+
+    .contact-item {
+        margin-bottom: 0;
+    }
+
+    .item-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .item-2 {
+        grid-column-start: 2;
+    }
+
+    .item-3 {
+        grid-column-start: 2;
+    }
+}

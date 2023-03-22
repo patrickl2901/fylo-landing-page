@@ -1,0 +1,22 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 2rem;
+}
+
+@media screen and (min-width: 961px) {
+
+    .features {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        column-gap: 10rem;
+    }
+
+    .features-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+}
